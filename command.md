@@ -22,4 +22,12 @@
 
      view.py
      
+6. change name/domain to production level
+
+    ```
+    python3 manage.py shell
+    from django.contrib.sites.models import Site
+    mysite,_=Site.objects.get_or_create(id=2, name='127.0.0.1:8000', domain='127.0.0.1:8000')
+    print (mysite.id, mysite.name)
+    ```
      `
