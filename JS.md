@@ -8,12 +8,12 @@ JS
 
 2. numeric variable
 
-  Char code :
+    Char code :
 
-  `48-57` equal to 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+    `48-57` equal to 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 
-  `0` is Backspace(otherwise need refresh page on Firefox)
+    `0` is Backspace(otherwise need refresh page on Firefox)
 
-  `46` is dot
+    `46` is dot
   
-  && is AND , || is OR operator.
+    && is AND , || is OR operator.
