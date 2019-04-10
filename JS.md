@@ -19,12 +19,10 @@ JS
     && is AND , || is OR operator.
 
 3. url herf
-
-    var url = document.createElement('a');
-    
-    url.href = 'https://developer.mozilla.org/en-US/search?q=URL#search-results-close-container';
     
     ```
+    var url = document.createElement('a');
+    url.href = 'https://developer.mozilla.org/en-US/search?q=URL#search-results-close-container';
     console.log(url.href); // https://developer.mozilla.org/en-US/search?q=URL#search-results-close-container
     console.log(url.protocol); // https:
     console.log(url.host); // developer.mozilla.org
