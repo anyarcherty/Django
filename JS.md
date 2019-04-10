@@ -33,3 +33,8 @@ JS
     console.log(url.hash); // #search-results-close-container
     console.log(url.origin); // https://developer.mozilla.org
     ```
+    
+4. update url link without pageloading
+    
+    
+    `window.history.pushState("", "", window.location.pathname)`
