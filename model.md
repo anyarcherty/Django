@@ -12,3 +12,8 @@
    
    `CHAR` and `TEXT` types are `never` saved as `NULL` by Django, so null=True is unnecessary. 
    However, you can manually set one of these fields to None to force set it as NULL. If you have a scenario where that might be necessary, you should still include null=True.
+
+
+   Simply `null=True` defines database should `accept NULL values`, on other hand `blank=True` defines on `form validation` this field should accept blank values or not(If blank=True it accept form without a value in that field and blank=False[default value] on form validation it will show This field is required error.
+   
+   https://stackoverflow.com/questions/8609192/differentiate-null-true-blank-true-in-django
