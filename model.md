@@ -17,3 +17,17 @@
    Simply `null=True` defines database should `accept NULL values`, on other hand `blank=True` defines on `form validation` this field should accept blank values or not(If blank=True it accept form without a value in that field and blank=False[default value] on form validation it will show This field is required error.
    
    https://stackoverflow.com/questions/8609192/differentiate-null-true-blank-true-in-django
+
+2. make migration of field in models
+
+     change the field
+     
+     `publisher = models.CharField(max_length = 50)` to `publisher = models.CharField(max_length = 50, null=True)`
+     
+     open terminal 
+     
+     `python3 manage.py makemigrations` 
+     
+     check the file in migration folder to see the different, if all is right
+     
+     `python3 manage.py migrate` confirm migrate
