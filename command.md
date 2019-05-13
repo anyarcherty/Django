@@ -31,3 +31,6 @@
     print (mysite.id, mysite.name)
     ```
      `
+7. port is already used
+    
+    `sudo lsof -t -i tcp:8000 | xargs kill -9` tcp is port 
