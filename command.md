@@ -30,7 +30,11 @@
     mysite,_=Site.objects.get_or_create(id=2, name='127.0.0.1:8000', domain='127.0.0.1:8000')
     print (mysite.id, mysite.name)
     ```
-     `
+    
 7. port is already used
     
     `sudo lsof -t -i tcp:8000 | xargs kill -9` tcp is port 
+
+8. django orm
+
+    The Django ORM is an implementation of the object-relational mapping (ORM) concept.
