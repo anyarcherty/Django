@@ -38,3 +38,9 @@
 8. django orm
 
     The Django ORM is an implementation of the object-relational mapping (ORM) concept.
+
+9. jquery datatable
+
+    datatable must have `<thead>` and `<tbody>` to trgger the built in jquery
+    
+    
