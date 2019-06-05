@@ -43,4 +43,6 @@
 
     datatable must have `<thead>` and `<tbody>` to trgger the built in jquery
     
-    
+10. create a python env 
+
+    `python3 -m venv env`
