@@ -11,3 +11,4 @@ install celery
     `__init__.py`
     `setting.py`
     `celery.py`
+    
